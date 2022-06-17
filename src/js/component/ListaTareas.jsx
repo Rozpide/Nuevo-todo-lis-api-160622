@@ -91,4 +91,16 @@ const ListaTareas = ()=>{
         setTareaLista(list);
         putTarea(list);
     };
+    return(
+        <div className="gradient-custom vh-100">
+            <div className="pt-3 row d-flex justyfy-content-center align-item-center h-100">
+                <div className="col-10 col-xl-10">
+                    <div className="card-body p-5">
+                        <h1 className="d-flex justyfy-content-center p-3">Lista de tareas</h1>
+                        <select className="form-select mb-3" onChange={(e) => {setTypeTodo(e.target.value);}}>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
     
